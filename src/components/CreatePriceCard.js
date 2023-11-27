@@ -13,10 +13,10 @@ export function CreatePriceCard({ plan, price, featureList }) {
           <Card.Text>
             <ul className="fa-ul">
               {featureList.map((feature) => {
-                return <li className={feature.isEnabled ? "" : "text-muted"}>               {/* this line is to disable the text (text-muted) */}
+                return <li className={feature.isEnabled ? "" : "text-muted"}>               
                   <span className="fa-li">
-                    <i class={`fa ${feature.isEnabled ? 'fa-check' : 'fa-times'}`}></i>        {/* this line to font awesome icon ✔ and ✖ icon */}
-                  </span>{feature.name}             {/* this line is to other content in card  */}
+                    <i class={`fa ${feature.isEnabled ? 'fa-check' : 'fa-times'}`}></i>       
+                  </span>{feature.name}            
                 </li>;
               })}
             </ul>

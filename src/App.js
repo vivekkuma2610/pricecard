@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { CreatePriceCard } from './PriceCard';
+import  {CreatePriceCard}  from './components/CreatePriceCard';
 
 function App() {
 
